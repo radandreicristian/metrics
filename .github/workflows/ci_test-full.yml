@@ -129,5 +129,6 @@ jobs:
         fail_ci_if_error: false
 
     - name: Integrations
+      if: success()
       run: |
         python -m pytest integrations -v --durations=25
