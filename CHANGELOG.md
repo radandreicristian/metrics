@@ -17,6 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `SQuAD` ([#623](https://github.com/PyTorchLightning/metrics/pull/623))
   - `CHRFScore` ([#641](https://github.com/PyTorchLightning/metrics/pull/641))
   - `TranslationEditRate` ([#646](https://github.com/PyTorchLightning/metrics/pull/646))
+  - `ExtendedEditDistance` ([#668](https://github.com/PyTorchLightning/metrics/pull/668))
+
 
 - Added `MultiScaleSSIM` into image metrics ([#679](https://github.com/PyTorchLightning/metrics/pull/679))
 
@@ -90,6 +92,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Renamed Hinge metric: ([#734](https://github.com/PyTorchLightning/metrics/pull/734))
   * `torchmetrics.functional.hinge` -> `torchmetrics.functional.hinge_loss`
   * `torchmetrics.Hinge` -> `torchmetrics.HingeLoss`
+
+- Renamed F-Beta metrics: ([#740](https://github.com/PyTorchLightning/metrics/pull/740))
+  * `torchmetrics.functional.fbeta` -> `torchmetrics.functional.fbeta_score`
+  * `torchmetrics.FBeta` -> `torchmetrics.FBetaScore`
 
 
 ### Removed
